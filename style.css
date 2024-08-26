@@ -6,29 +6,64 @@
 
 /* NavBar */
 .navbar {
-}
-
-.links {
-}
-
-.link {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
 }
 
 .logo {
+    width: 40px;
 }
 
 /* Header */
 .header {
+    display: flex;
+    flex-direction: row;
 }
 
 .conteudo-header {
+    width: calc(50% - 30px);
+    background-color: lightgreen;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-.conteudo-texto-header {
+.imagem-header {
+    width: 50%;
 }
 
-.texto-header {
+
+/* Secao */
+.secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    gap: 10px;
+    padding: 20px 0;
 }
 
-.imagem-header {Luca
+.containers-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    width: calc((90% / 3) - 20px);
+    background-color: white;
+    padding: 10px;
+}
+
+.img-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-;
 }
