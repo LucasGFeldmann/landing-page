@@ -1,76 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>LandingPage</title>
+    <title>Landing Page</title>
 </head>
 
 <body>
-    <div class="navbar">
-        <img class="logo" src="./assets/logo.png" alt="Logo" />
-        <div class="links">
-            <a class="link" href="">Sobre Nós</a>
-            <a class="link" href="">Projetos</a>
-            <a class="link" href="">Contato</a>
-        </div>
-    </div>
-    <div class="header">
-        <div class="conteudo-header">
-            <h1>Titulo</h1>
-            <p class="texto-header">
-                Descrição: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui repudiandae temporibus
-                voluptatem
-                nostrum distinctio voluptate voluptatibus necessitatibus animi, perferendis ut eius dignissimos officiis
-                quo
-                officia assumenda culpa sint provident dicta!
-            </p>
-            <button>Clique aqui</button>
-        </div>
-        <img class="imagem-header" src="./assets/imgem-cards.jpeg" alt="Image" />
-    </div>
-    <div class="secao">
-        <h2>
-            Titulo
-        </h2>
-        <div class="containers-cards">
+    <header class="navbar">
+        <img class="logo" src="./assets/logo.png" alt="Logo">
+        <nav class="nav-links">
+            <a class="link" href="#sobre">Sobre Nós</a>
+            <a class="link" href="#projetos">Projetos</a>
+            <a class="link" href="#contato">Contato</a>
+        </nav>
+    </header>
 
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Título</h1>
+            <p class="hero-text">
+                Descrição: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui repudiandae temporibus
+                voluptatem nostrum distinctio voluptate voluptatibus necessitatibus animi, perferendis ut eius dignissimos officiis quo officia assumenda culpa sint provident dicta!
+            </p>
+            <a href="#contato" class="cta-button">Clique aqui</a>
+        </div>
+        <img class="hero-image" src="./assets/imgem-cards.jpeg" alt="Imagem ilustrativa">
+    </section>
+
+    <section class="projects" id="projetos">
+        <h2>Projetos</h2>
+        <div class="cards-container">
             <div class="card">
-                <h3>Titulo</h3>
-                <img class="img-card" src="./assets/imgem-cards.jpeg" alt="Card" />
-                <p>Descrição</p>
+                <h3>Título do Projeto</h3>
+                <img class="card-image" src="./assets/imgem-cards.jpeg" alt="Projeto 1">
+                <p>Descrição do projeto.</p>
             </div>
             <div class="card">
-                <h3>Titulo</h3>
-                <img class="img-card" src="./assets/imgem-cards.jpeg" alt="Card" />
-                <p>Descrição</p>
+                <h3>Título do Projeto</h3>
+                <img class="card-image" src="./assets/imgem-cards.jpeg" alt="Projeto 2">
+                <p>Descrição do projeto.</p>
             </div>
             <div class="card">
-                <h3>Titulo</h3>
-                <img class="img-card" src="./assets/imgem-cards.jpeg" alt="Card" />
-                <p>Descrição</p>
+                <h3>Título do Projeto</h3>
+                <img class="card-image" src="./assets/imgem-cards.jpeg" alt="Projeto 3">
+                <p>Descrição do projeto.</p>
             </div>
         </div>
-    </div>
-    <div class="secao">
-        <h2>
-            Titulo
-        </h2>
-        <p>Descrição: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi mollitia, facere facilis dolore
-            veritatis corporis. Perferendis voluptas soluta dicta architecto error animi impedit, in recusandae quo
-            distinctio sunt incidunt nostrum.</p>
-    </div>
-    <div class="footer">
-        <img src="./assets/logo.png" alt="Logo" />
+    </section>
+
+    <section class="about" id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>
+            Descrição: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi mollitia, facere facilis dolore
+            veritatis corporis. Perferendis voluptas soluta dicta architecto error animi impedit, in recusandae quo distinctio sunt incidunt nostrum.
+        </p>
+    </section>
+
+    <footer class="footer" id="contato">
+        <img class="logo" src="./assets/logo.png" alt="Logo">
         <p>Desenvolvido por Jovem e Tecnologia</p>
-        <div class="links">
-            <a href="">Sobre Nós</a>
-            <a href="">Projetos</a>
-            <a href="">Contato</a>
-        </div>
-    </div>
+        <nav class="footer-links">
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </footer>
 </body>
 
 </html>
